@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Fonts do projeto importado pelo google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&display=swap");
+
+/*  Mobile first */
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url("./../image/bg-pattern-top.svg");
+  background-image: url("./../image/bg-pattern-bottom.svg");
+  background-size: 100%;
+  background-position: 300px 240px;
+  background-repeat: repeat;
+}
+main {
+  height: 400px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5em 20px 2em 27em;
+  border: 2px solid transparent;
+  box-shadow: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.img {
+  border: 5px solid white;
+  border-radius: 5em;
+  width: auto;
+  height: 100px;
+}
+.imgBackground {
+  width: 280px;
+  height: 120px;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+.principalText {
+  font-family: Kumbh Sans, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+}
+span {
+  font-weight: bold;
+  font-size: 15px;
+  margin: 25px 10px 0px 0px;
+}
+.age {
+  color: hsl(0, 0%, 59%);
+  font-size: 12;
+  font-family: kumbh sans, sans-serif;
+  font-weight: 400px;
+}
+.information {
+  display: flex;
+  gap: 15px;
+  margin-top: 45px;
+  font-family: Kumbh Sans, sans-serif;
+  font-size: 12px;
+  margin-bottom: 5em;
+}
+.london {
+  margin-top: 15px;
+  color: hsl(0, 0%, 59%);
+}
+.informationOne {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+}
+.informationTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+}
+.informationTree {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+}
+.marketing {
+  margin-bottom: 15px;
+  color: hsl(0, 0%, 59%);
+  font-family: Kumbh Sans, sans-serif;
+}
