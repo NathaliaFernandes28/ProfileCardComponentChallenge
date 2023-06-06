@@ -1,3 +1,4 @@
+Profile Card Component 
 
 💻 Sobre:
 
@@ -27,4 +28,6 @@ Principais tecnologias usadas neste projeto:
 <br>
 
 Projeto: 
+
+
 ![image](https://github.com/NathaliaFernandes28/ProfileCardComponentChallenge/assets/88513545/854a325e-d118-4aa2-89a3-d4ab260c0dac)
